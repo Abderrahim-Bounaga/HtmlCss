@@ -1,0 +1,168 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+body{ 
+    margin: 0 0;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #35424a;
+    margin-top: 0;
+}
+.active{
+    color: tomato;
+}
+nav h1{
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+nav ul{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    width: 10% px;
+    padding-left: 20px;
+    /* margin: auto; */
+}
+nav ul li a{
+    font-size: large;
+    color: white;
+}
+.content{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    /* margin-top: -20px; */
+}
+.content1{
+    width: 100%;
+    text-align: center;
+    /* margin-top: -20px; */
+}
+.title{
+    height: 80%;
+    background-image: url("img/12751727-blue-source-code-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+}
+.title h1{
+    font-size: 40px;
+    color: white;
+}
+.title h3{
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+.saersh{
+    height: 20%;
+    background-color: #35424a;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.saersh h2{
+    color: white;
+}
+.inputt{
+    width: 50%;
+    margin-top: 10px;
+}
+.inputS{
+    margin-top: 10px;
+    width: 25%;
+    height: 30px;
+}
+.inputB{
+    margin-top: 10px;
+    width: 15%;
+    height: 35px;
+    background-color:tomato;
+}
+.compet{
+    width: 70%;
+    margin: 10% auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.compet1{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color:tomato;
+    text-align: center;
+    padding:  15px 0;
+    color: white;
+}
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.about1{
+    width: 60%;
+    
+}
+.about1 h2{
+    margin-left: 15%;
+}
+.about1 p{
+    margin-left: 15%;
+}
+.about2{
+    width: 40%;
+
+}
+.about2 h2{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+
+}
+.about2 p{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 70%;
+    padding: 15px 10px;
+    color: white;
+
+}
+.col{
+    background-color: #35424a;
+    padding: 10px;
+    color: white;
+}
+.col1{
+    background-color: #35424a;  
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.service{
+    width: 100%;
+    padding-bottom: 20PX;
+}
+.serv{
+    width: 60%;
+    margin-left: 10%;
+}
+.ser{
+padding: 10px;
+background-color: gainsboro;
+border: 2px black;
+margin-top: 7px;
+}
